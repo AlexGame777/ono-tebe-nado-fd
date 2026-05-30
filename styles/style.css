@@ -41,7 +41,7 @@ img {
   list-style-type: none;
 }
 
-.list-nav{
+.list-nav {
   list-style-type: none;
 }
 
@@ -429,9 +429,9 @@ img {
   background-color: #000000;
 }
 
-.about__logo-image{
+.about__logo-image {
   position: relative;
-  width: 148px; 
+  width: 148px;
   height: 114px;
 }
 
