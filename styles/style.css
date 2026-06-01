@@ -12,14 +12,12 @@ img {
 /*шапка*/
 
 .header {
-  position: relative;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  min-height: 293px;
-  padding: 0px 50px 0px 50px;
+  padding: 92px 50px 92.5px 50px;
 }
 
 /*Навигация в шапке*/
@@ -59,7 +57,6 @@ img {
 }
 
 .menu {
-  position: relative;
   display: flex;
   align-items: center;
   width: 100%;
@@ -250,7 +247,7 @@ h1 {
 .lots {
   position: relative;
   top: auto;
-  z-index: -1;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -265,7 +262,7 @@ h1 {
 }
 
 .lots__card-list {
-  z-index: -1;
+  z-index: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -279,7 +276,7 @@ h1 {
   position: relative;
   z-index: 0;
   width: 334px;
-  height: 596px;
+  min-height: 596px;
 }
 
 .card_type {
@@ -335,7 +332,6 @@ h1 {
 }
 
 .lots__look-more-link {
-  position: relative;
   margin-left: 64px;
   margin-top: 30px;
   color: #000000;
@@ -350,11 +346,9 @@ h1 {
 /* Об аукционе */
 
 .about {
-  position: relative;
   top: auto;
   display: grid;
   grid-template-columns: 334px 1fr;
-  grid-template-rows: 240px 1fr;
   width: 100%;
   padding: 0px 24px 0px 24px;
 }
@@ -375,7 +369,6 @@ h1 {
 
 .about__logo-image {
   width: 148px;
-  height: 114px;
 }
 
 .about__column {
@@ -397,6 +390,12 @@ h1 {
   max-width: 688px;
   padding-bottom: 100px;
   padding-top: 3px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26.5px;
+  text-transform: uppercase;
+  color: #000000;
 }
 
 .about-text {
@@ -427,7 +426,7 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   width: 100%;
-  padding: 0px 50px 0px 50px;
+  padding: 0px 50px 100px 50px;
 }
 
 .footer-adress {
