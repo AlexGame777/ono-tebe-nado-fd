@@ -162,7 +162,6 @@ h1 {
 }
 
 .cover__title {
-  position: relative;
   z-index: 1;
   margin-top: 165px;
   margin-left: 50px;
@@ -390,7 +389,7 @@ h1 {
   max-width: 688px;
   padding-bottom: 100px;
   padding-top: 3px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26.5px;
