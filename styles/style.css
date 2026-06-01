@@ -162,6 +162,7 @@ h1 {
 }
 
 .cover__title {
+  position: relative;
   z-index: 1;
   margin-top: 165px;
   margin-left: 50px;
@@ -244,8 +245,6 @@ h1 {
 /* Лоты */
 
 .lots {
-  position: relative;
-  top: auto;
   z-index: 0;
   display: flex;
   flex-direction: column;
@@ -345,7 +344,6 @@ h1 {
 /* Об аукционе */
 
 .about {
-  top: auto;
   display: grid;
   grid-template-columns: 334px 1fr;
   width: 100%;
